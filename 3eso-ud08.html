@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>UD8. Automatización conectada · 3.º ESO</title>
+<meta name="description" content="Programas más grandes, sistemas que hablan con internet">
+<link rel="stylesheet" href="estilos.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><text y='19' font-size='19'>&#9881;</text></svg>">
+</head>
+<body>
+<header class="barra">
+  <div class="barra-int">
+    <a class="marca" href="index.html">
+      <span class="sello">TYD·3</span>
+      <span>Tecnología y Digitalización<small>3.º ESO · Coria del Río (Sevilla)</small></span>
+    </a>
+    <nav class="nav" aria-label="Principal">
+      <a href="3eso.html">3.º ESO</a><a href="3eso-curriculo.html">Currículo</a><a href="3eso-rubricas.html">Rúbricas</a><a href="3eso-presentacion.html">Presentación</a><a href="3eso-diagnostico.html">¿Qué sé ya?</a><a href="glosario.html">Glosario</a>
+      <button type="button" data-tema-bt aria-pressed="false" title="Cambiar entre modo claro y oscuro">Tema</button>
+    </nav>
+  </div>
+</header>
+<main>
+<div class="cabecera-ud v2">
+<p class="eyebrow">3.º ESO · Unidad 8 · 2.ª vuelta</p>
+<h1>Automatización conectada</h1>
+<p class="subtitulo">Programas más grandes, sistemas que hablan con internet</p>
+<p>Segunda vuelta de programación y robótica. El salto aquí es de tamaño: los programas
+crecen, y un programa grande escrito como uno pequeño se vuelve imposible de arreglar.</p>
+<p>Aprenderás a trocear el código, a manejar conjuntos de datos y a conectar tu sistema a internet
+—con todo lo que eso implica en seguridad—.</p>
+<div class="ficha">
+  <span class="dato"><b>7</b> sesiones</span>
+  <span class="dato"><b>5</b> apartados de teoría</span>
+  <span class="dato"><b>3</b> ejercicios evaluables</span>
+</div>
+<div class="ficha" style="margin-top:.6rem"><span class="dato">Criterios</span><a class="chip" href="3eso-curriculo.html#c5-1" title="Describir, interpretar y diseñar soluciones a problemas informáticos a través de algoritmos y diagramas de flujo, aplicando los elementos y técnicas de programación de manera creativa.">5.1</a> <a class="chip" href="3eso-curriculo.html#c5-2" title="Programar aplicaciones sencillas para distintos dispositivos como por ejemplo ordenadores, dispositivos y móviles, empleando los elementos de programación de manera apropiada y aplicando herramientas de edición, así como módulos de inteligencia artificial que añadan funcionalidades a la solución.">5.2</a> <a class="chip" href="3eso-curriculo.html#c5-3" title="Automatizar procesos, máquinas y objetos de manera autónoma, con conexión a internet, mediante el análisis, construcción y programación de robots y sistemas de control.">5.3</a></div>
+<div class="ficha" style="margin-top:.4rem"><span class="dato">Saberes</span><a class="chip s" href="3eso-curriculo.html#sC-1" title="Aplicaciones informáticas sencillas para ordenador y dispositivos móviles e introducción a la inteligencia artificial.">C.1</a> <a class="chip s" href="3eso-curriculo.html#sC-2" title="Fundamentos de la robótica: montaje y control programado de robots simples de manera física o por medio de simuladores.">C.2</a> <a class="chip s" href="3eso-curriculo.html#sC-3" title="Autoconfianza e iniciativa: el error, la reevaluación y la depuración de errores como parte del proceso de aprendizaje.">C.3</a></div>
+<p class="reto">¿Cómo se construye un sistema que decide solo, se conecta a la red y no es un peligro para quien lo usa?</p>
+</div>
+<section class="mapa v2">
+  <h2>Mapa de la unidad</h2>
+  <p class="pista">Línea continua: teoría. Línea discontinua y borde de trazos: ejercicio evaluable y
+  la teoría de la que depende. Toca cualquier nodo para ir a su contenido.</p>
+  <div class="mapa-lienzo"><svg viewBox="0 0 900 450" role="img" aria-label="Mapa conceptual de la unidad 8"><path class="enlace" data-enlace-de="t1" d="M 248 225.0 C 290 225.0 290 65.0 330 65.0"/><path class="enlace" data-enlace-de="t2" d="M 248 225.0 C 290 225.0 290 145.0 330 145.0"/><path class="enlace" data-enlace-de="t3" d="M 248 225.0 C 290 225.0 290 225.0 330 225.0"/><path class="enlace" data-enlace-de="t4" d="M 248 225.0 C 290 225.0 290 305.0 330 305.0"/><path class="enlace" data-enlace-de="t5" d="M 248 225.0 C 290 225.0 290 385.0 330 385.0"/><path class="enlace dep" data-enlace-de="e1" d="M 556 65.0 C 600 65.0 600 133.0 642 133.0"/><path class="enlace dep" data-enlace-de="e1" d="M 556 145.0 C 600 145.0 600 133.0 642 133.0"/><path class="enlace dep" data-enlace-de="e2" d="M 556 65.0 C 600 65.0 600 225.0 642 225.0"/><path class="enlace dep" data-enlace-de="e2" d="M 556 225.0 C 600 225.0 600 225.0 642 225.0"/><path class="enlace dep" data-enlace-de="e2" d="M 556 385.0 C 600 385.0 600 225.0 642 225.0"/><path class="enlace dep" data-enlace-de="e3" d="M 556 305.0 C 600 305.0 600 317.0 642 317.0"/><path class="enlace dep" data-enlace-de="e3" d="M 556 385.0 C 600 385.0 600 317.0 642 317.0"/><g class="nodo centro"><rect class="caja" x="16" y="189.0" width="232" height="72" rx="5"/><text x="132" y="219.0" text-anchor="middle">UD8</text><text x="132" y="239.0" text-anchor="middle" font-size="11.5" font-weight="500">Automatización conectada</text></g><g class="nodo teoria" tabindex="0" role="link" data-destino="t1"><rect class="caja" x="330" y="36.0" width="226" height="58" rx="4"/><text x="443" y="55.5" text-anchor="middle">Descomponer:</text><text x="443" y="70.5" text-anchor="middle">subprogramas y funciones</text></g><g class="nodo teoria" tabindex="0" role="link" data-destino="t2"><rect class="caja" x="330" y="116.0" width="226" height="58" rx="4"/><text x="443" y="135.5" text-anchor="middle">Listas y tratamiento de</text><text x="443" y="150.5" text-anchor="middle">datos</text></g><g class="nodo teoria" tabindex="0" role="link" data-destino="t3"><rect class="caja" x="330" y="196.0" width="226" height="58" rx="4"/><text x="443" y="215.5" text-anchor="middle">IA integrada con</text><text x="443" y="230.5" text-anchor="middle">criterio</text></g><g class="nodo teoria" tabindex="0" role="link" data-destino="t4"><rect class="caja" x="330" y="276.0" width="226" height="58" rx="4"/><text x="443" y="303.0" text-anchor="middle">Sistemas conectados: IoT</text></g><g class="nodo teoria" tabindex="0" role="link" data-destino="t5"><rect class="caja" x="330" y="356.0" width="226" height="58" rx="4"/><text x="443" y="375.5" text-anchor="middle">Depuración sistemática y</text><text x="443" y="390.5" text-anchor="middle">pruebas</text></g><g class="nodo tarea" tabindex="0" role="link" data-destino="e1"><rect class="caja" x="642" y="100.0" width="240" height="66" rx="4"/><text class="cod" x="762" y="116.0" text-anchor="middle">CRITERIO 5.1</text><text x="762" y="128.5" text-anchor="middle">Diseño algorítmico de un</text><text x="762" y="143.5" text-anchor="middle">sistema complejo</text></g><g class="nodo tarea" tabindex="0" role="link" data-destino="e2"><rect class="caja" x="642" y="192.0" width="240" height="66" rx="4"/><text class="cod" x="762" y="208.0" text-anchor="middle">CRITERIO 5.2</text><text x="762" y="220.5" text-anchor="middle">Aplicación completa con</text><text x="762" y="235.5" text-anchor="middle">módulo de IA justificado</text></g><g class="nodo tarea" tabindex="0" role="link" data-destino="e3"><rect class="caja" x="642" y="284.0" width="240" height="66" rx="4"/><text class="cod" x="762" y="300.0" text-anchor="middle">CRITERIO 5.3</text><text x="762" y="312.5" text-anchor="middle">Sistema automático</text><text x="762" y="327.5" text-anchor="middle">conectado a internet</text></g></svg></div>
+  <ul class="mapa-lista"><li><a href="#t1" data-destino="t1"><span class="cod">TEORÍA</span>Descomponer: subprogramas y funciones</a></li><li><a href="#t2" data-destino="t2"><span class="cod">TEORÍA</span>Listas y tratamiento de datos</a></li><li><a href="#t3" data-destino="t3"><span class="cod">TEORÍA</span>IA integrada con criterio</a></li><li><a href="#t4" data-destino="t4"><span class="cod">TEORÍA</span>Sistemas conectados: IoT</a></li><li><a href="#t5" data-destino="t5"><span class="cod">TEORÍA</span>Depuración sistemática y pruebas</a></li><li class="tarea"><a href="#e1" data-destino="e1"><span class="cod">EJERCICIO · CRITERIO 5.1</span>Diseño algorítmico de un sistema complejo</a></li><li class="tarea"><a href="#e2" data-destino="e2"><span class="cod">EJERCICIO · CRITERIO 5.2</span>Aplicación completa con módulo de IA justificado</a></li><li class="tarea"><a href="#e3" data-destino="e3"><span class="cod">EJERCICIO · CRITERIO 5.3</span>Sistema automático conectado a internet</a></li></ul>
+</section>
+<section class="progreso" data-progreso-ud="3eso8">
+<strong>Tu progreso en esta unidad</strong>
+<div class="barra-p"><div class="relleno"></div></div>
+<span data-progreso-txt style="font-size:.88rem;color:var(--tinta-2)"></span>
+<p class="aviso">Las marcas se guardan solo en este navegador y en este dispositivo: no las ve el
+profesorado y no sustituyen a la entrega real. Si usas un ordenador compartido del aula, es normal que
+no aparezcan. <button type="button" class="bt" data-reset>Desmarcar todo</button></p>
+</section>
+<div class="bloque-titulo"><h2>Teoría</h2><span class="et">5 apartados</span><button type="button" class="bt" data-abrir-todo data-abierto="0" style="margin-left:auto">Desplegar todo</button></div>
+<details class="seccion v2" id="t1" open><summary><span class="num">1</span>Descomponer: subprogramas y funciones<span class="flecha"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M9 5 l7 7 l-7 7"/></svg></span></summary><div class="cuerpo"><p>Cuando un programa pasa de unas pocas instrucciones, la solución no es escribir más
+rápido: es <strong>trocearlo</strong>. Un subprograma (o función) es un bloque con nombre que hace una
+cosa concreta y al que puedes llamar desde cualquier sitio.</p>
+<p>Las ventajas son tres. Si tienes que cambiar algo, lo cambias en un solo lugar. Si algo falla, sabes
+dónde mirar. Y puedes probar cada trozo por separado, que es la única forma razonable de depurar algo
+grande.</p>
+<p>La regla práctica: si no puedes describir lo que hace un bloque en una sola frase, ese bloque hace
+demasiadas cosas y hay que partirlo.</p><div class="caja caja-vida"><span class="et"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="var(--tinta-3)" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 4 A7 7 0 1 0 11 18 A7 7 0 1 0 11 4 M16 16 L21 21"/></svg> En tu vida diaria</span><p>Una receta bien escrita dice «prepara un sofrito» y remite a otra página, en
+lugar de repetir los mismos ocho pasos cada vez que aparece. Eso es exactamente una función: se define
+una vez y se usa muchas.</p></div><div class="caja caja-act"><span class="et"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="var(--ambar-txt)" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 6 h13 M8 12 h13 M8 18 h13 M3 6 h.01 M3 12 h.01 M3 18 h.01"/></svg> Actividad 1 · no evaluable</span><p>Coge el programa que hiciste en la UD3 y reescríbelo usando al
+menos dos funciones. Compara las dos versiones: ¿cuál entenderías mejor dentro de tres meses?</p></div></div></details>
+<details class="seccion v2" id="t2"><summary><span class="num">2</span>Listas y tratamiento de datos<span class="flecha"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M9 5 l7 7 l-7 7"/></svg></span></summary><div class="cuerpo"><p>Hasta ahora cada variable guardaba un dato. Una <strong>lista</strong> guarda muchos
+bajo un mismo nombre, y accedes a cada uno por su posición.</p>
+<p>Esto lo cambia todo cuando trabajas con sensores: en lugar de una temperatura, guardas las últimas
+cien y puedes calcular la media, detectar el máximo o ver si la tendencia sube.</p>
+<p>Y aquí aparece una idea importante: filtrar antes de decidir. Un sensor da lecturas raras de vez en
+cuando. Si tu sistema reacciona a cada lectura suelta, se volverá loco. Si reacciona a la media de las
+cinco últimas, se comporta con sensatez.</p><div class="caja caja-act"><span class="et"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="var(--ambar-txt)" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 6 h13 M8 12 h13 M8 18 h13 M3 6 h.01 M3 12 h.01 M3 18 h.01"/></svg> Actividad 2 · no evaluable</span><p>Programa un sistema que guarde en una lista veinte lecturas de
+un sensor, calcule la media y avise solo si tres lecturas seguidas superan el umbral. Compara su
+comportamiento con el de un sistema que avisa a la primera lectura.</p></div></div></details>
+<details class="seccion v2" id="t3"><summary><span class="num">3</span>IA integrada con criterio<span class="flecha"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M9 5 l7 7 l-7 7"/></svg></span></summary><div class="cuerpo"><p>En la UD3 añadiste un módulo de IA a un programa. Ahora toca decidir <em>cuándo</em>
+tiene sentido hacerlo.</p>
+<p>La IA aporta cuando el problema no se puede describir con reglas: reconocer si en una foto hay un
+cangrejo rojo o uno autóctono es dificilísimo de programar con condicionales, y fácil para un
+<a class="termino" href="glosario.html#modelo-entrenado" title="Modelo entrenado: Programa de IA que ha aprendido a partir de muchos ejemplos. Lo que aprende depende por completo de los ejemplos que se le dieron.">modelo entrenado</a>.</p>
+<p>Pero la IA sobra cuando el problema sí tiene reglas claras. Para decidir si hay que regar, un
+<code>si humedad &lt; 60</code> es más fiable, más rápido y más fácil de explicar que cualquier modelo.
+Usar IA donde basta un condicional es una mala decisión técnica, aunque suene más moderno.</p>
+<p>Y no olvides el <a class="termino" href="glosario.html#sesgo-algoritmico" title="Sesgo algorítmico: Error sistemático de un sistema de IA que perjudica a un grupo de personas porque los datos de entrenamiento estaban desequilibrados.">sesgo algorítmico</a>: si tu sistema toma decisiones que afectan a personas, tienes
+que poder explicar en qué se basa. Un sistema que nadie puede explicar es un sistema del que nadie
+puede responder.</p><div class="caja caja-act"><span class="et"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="var(--ambar-txt)" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 6 h13 M8 12 h13 M8 18 h13 M3 6 h.01 M3 12 h.01 M3 18 h.01"/></svg> Actividad 3 · no evaluable</span><p>Para estos tres problemas, decide si usarías IA o reglas, y
+justifícalo: (a) detectar si una plaza de aparcamiento está libre a partir de una foto; (b) encender
+una farola cuando anochece; (c) clasificar mensajes de un buzón de sugerencias por temas.</p></div></div></details>
+<details class="seccion v2" id="t4"><summary><span class="num">4</span>Sistemas conectados: IoT<span class="flecha"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M9 5 l7 7 l-7 7"/></svg></span></summary><div class="cuerpo"><p>Conectar un sistema de control a internet permite que envíe datos y reciba órdenes a
+distancia. Es lo que se llama <strong>internet de las cosas</strong>.</p>
+<p>La arquitectura típica tiene cuatro capas: los sensores miden, el microcontrolador procesa, la red
+transporta y un servidor almacena y muestra los datos. Cada capa puede fallar por su cuenta, y un buen
+sistema sigue haciendo lo esencial aunque se caiga la conexión.</p>
+<p>Ese es el principio más importante: <strong>si se cae la red, el sistema debe seguir siendo
+seguro</strong>. Un riego que deja la válvula abierta al perder la conexión es un mal diseño, por muy
+bien que funcione el resto del tiempo.</p><figure class="esquema"><div class="esquema-lienzo"><svg viewBox="0 0 800 310" role="img" aria-label="Todo sistema automático se reduce a este esquema, desde un termostato hasta un robot." xmlns="http://www.w3.org/2000/svg">
+<g class="svg-caja">
+<rect x="40" y="90" width="150" height="80" rx="4" fill="var(--verde-suave)" stroke="var(--verde)" stroke-width="2.5"/>
+<rect x="315" y="90" width="170" height="80" rx="4" fill="var(--papel-2)" stroke="var(--tinta)" stroke-width="2.5"/>
+<rect x="596" y="90" width="178" height="80" rx="4" fill="var(--ambar-suave)" stroke="var(--ambar)" stroke-width="2.5"/>
+</g>
+<text x="115" y="124" text-anchor="middle" class="svg-lbl-b">SENSOR</text>
+<text x="115" y="146" text-anchor="middle" class="svg-lbl">mide el entorno</text>
+<text x="400" y="118" text-anchor="middle" class="svg-lbl-b">CONTROLADOR</text>
+<text x="400" y="140" text-anchor="middle" class="svg-lbl">decide según</text>
+<text x="400" y="157" text-anchor="middle" class="svg-lbl">el programa</text>
+<text x="685" y="124" text-anchor="middle" class="svg-lbl-b">ACTUADOR</text>
+<text x="685" y="146" text-anchor="middle" class="svg-lbl">actúa sobre el entorno</text>
+<g stroke="var(--linea)" stroke-width="2.5" marker-end="url(#sc)">
+<line x1="192" y1="130" x2="308" y2="130"/><line x1="487" y1="130" x2="589" y2="130"/>
+</g>
+<text x="250" y="118" text-anchor="middle" class="svg-lbl">señal</text>
+<text x="538" y="118" text-anchor="middle" class="svg-lbl">orden</text>
+<path d="M 685 175 v 55 H 115 v -52" fill="none" stroke="var(--verde)" stroke-width="2.5" stroke-dasharray="7 5" marker-end="url(#sc2)"/>
+<text x="400" y="252" text-anchor="middle" class="svg-lbl-b" fill="var(--verde-txt)">REALIMENTACIÓN: el sensor vuelve a medir el efecto de la acción</text>
+<text x="400" y="278" text-anchor="middle" class="svg-lbl">Con este camino de vuelta, el sistema es de lazo cerrado y se corrige solo.</text>
+<text x="400" y="298" text-anchor="middle" class="svg-lbl">Sin él, sería de lazo abierto: actuaría a ciegas.</text>
+<text x="400" y="48" text-anchor="middle" class="svg-lbl-b">Ejemplo: aire acondicionado del aula</text>
+<text x="400" y="68" text-anchor="middle" class="svg-lbl">termómetro → placa de control → compresor</text>
+<defs>
+<marker id="sc" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 z" fill="var(--linea)"/></marker>
+<marker id="sc2" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 z" fill="var(--verde)"/></marker>
+</defs>
+</svg></div><figcaption>Todo sistema automático se reduce a este esquema, desde un termostato hasta un robot.</figcaption></figure><div class="caja caja-coria"><span class="et"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="var(--verde-txt)" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 6 l6 -3 l6 3 l6 -3 v15 l-6 3 l-6 -3 l-6 3 z M9 3 v15 M15 6 v15"/></svg> Aquí, en Coria del Río</span><p>En las parcelas de arroz de la marisma, la telemetría permite vigilar el nivel del
+agua sin recorrer kilómetros de caminos. Pero la cobertura móvil allí es irregular, así que el
+controlador de campo tiene que poder funcionar solo durante horas y sincronizar después. Es un ejemplo
+real de por qué el diseño debe soportar la pérdida de red.</p></div><div class="caja caja-seg"><span class="et"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="var(--rojo)" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3 l8 3 v6 c0 5 -4 8 -8 9 c-4 -1 -8 -4 -8 -9 V6 z"/></svg> Atención</span><p>Un dispositivo conectado es una puerta a tu red. Las tres reglas mínimas: cambiar
+siempre la contraseña que trae de fábrica, no exponerlo directamente a internet si no es
+imprescindible, y mantenerlo actualizado. La mayoría de los ataques a dispositivos domésticos
+aprovechan contraseñas de fábrica que nadie cambió.</p></div><div class="caja caja-act"><span class="et"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="var(--ambar-txt)" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 6 h13 M8 12 h13 M8 18 h13 M3 6 h.01 M3 12 h.01 M3 18 h.01"/></svg> Actividad 4 · no evaluable</span><p>Dibuja la arquitectura de tu sistema en cuatro capas. Para cada
+una, escribe qué pasaría si fallara y qué debería hacer el sistema en ese caso.</p></div></div></details>
+<details class="seccion v2" id="t5"><summary><span class="num">5</span>Depuración sistemática y pruebas<span class="flecha"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M9 5 l7 7 l-7 7"/></svg></span></summary><div class="cuerpo"><p>En un programa grande no basta con probar «a ver si va». Se prueba por casos.</p>
+<p>Hay tres tipos que no debes saltarte: el <strong>caso normal</strong> (lo que pasa el 90 % del
+tiempo), los <strong>casos límite</strong> (el valor justo en el umbral, la lista vacía, el primer y el
+último elemento) y los <strong>casos imposibles</strong> (una temperatura de 300 °C, un sensor
+desconectado). Los errores se esconden casi siempre en los dos últimos.</p>
+<p>Documenta las pruebas en una tabla: entrada, salida esperada, salida obtenida. Cuando algo se rompa
+más adelante, esa tabla te dirá en dos minutos qué dejó de funcionar.</p><div class="caja caja-act"><span class="et"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="var(--ambar-txt)" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 6 h13 M8 12 h13 M8 18 h13 M3 6 h.01 M3 12 h.01 M3 18 h.01"/></svg> Actividad 5 · no evaluable</span><p>Diseña la tabla de pruebas de tu sistema con al menos diez
+casos, incluyendo tres límite y dos imposibles. Ejecútalos y anota los resultados reales.</p></div></div></details>
+<div class="bloque-titulo"><h2>Ejercicios evaluables</h2><span class="et">cada uno con su criterio y su rúbrica</span></div>
+<article class="ejercicio v2" id="e1">
+<h3>Diseño algorítmico de un sistema complejo <a class="chip" href="3eso-curriculo.html#c5-1" title="Describir, interpretar y diseñar soluciones a problemas informáticos a través de algoritmos y diagramas de flujo, aplicando los elementos y técnicas de programación de manera creativa.">Criterio 5.1</a></h3>
+<p class="criterio-txt"><strong>Se evalúa:</strong> Describir, interpretar y diseñar soluciones a problemas informáticos a través de algoritmos y diagramas de flujo, aplicando los elementos y técnicas de programación de manera creativa.</p>
+<p>Diseña el algoritmo completo de un sistema automático con al menos tres modos de
+funcionamiento distintos (por ejemplo: automático, manual y de emergencia).</p>
+<p>Entrega el diagrama de flujo general, el diagrama de cada subprograma, el pseudocódigo con las
+estructuras de datos que vas a usar, y el análisis de qué ocurre ante cada tipo de fallo previsible.</p>
+<p class="entrega"><strong>Entrega:</strong> Documento de diseño algorítmico, por parejas.</p>
+<details class="rub"><summary>Ver la rúbrica con la que se corrige</summary><div class="tabla-env"><table><thead><tr><th>Indicador</th><th>En inicio (1–4)</th><th>Adecuado (5–6)</th><th>Notable (7–8)</th><th>Excelente (9–10)</th></tr></thead><tbody><tr><th>Descomposición del problema</th><td>Un único bloque monolítico.</td><td>Descompone parcialmente.</td><td>Descompone en subprogramas con función clara.</td><td>Descomposición limpia, con subprogramas reutilizables.</td></tr><tr><th>Corrección de la lógica</th><td>La lógica tiene fallos que impiden el funcionamiento.</td><td>Funciona solo en el caso normal.</td><td>Lógica correcta en los modos previstos.</td><td>Correcta, incluidos los casos límite y las transiciones entre modos.</td></tr><tr><th>Estructuras de datos</th><td>No las considera.</td><td>Las usa sin justificar.</td><td>Elige estructuras adecuadas y las justifica.</td><td>Elige, justifica y prevé el filtrado o tratamiento de los datos.</td></tr><tr><th>Tratamiento de fallos</th><td>No lo contempla.</td><td>Lo contempla superficialmente.</td><td>Prevé los fallos principales y la respuesta del sistema.</td><td>Prevé fallos y garantiza un estado seguro ante cada uno.</td></tr></tbody></table></div></details>
+<label class="marcar"><input type="checkbox" data-tarea="e1"> Marcar como entregado</label>
+</article>
+<article class="ejercicio v2" id="e2">
+<h3>Aplicación completa con módulo de IA justificado <a class="chip" href="3eso-curriculo.html#c5-2" title="Programar aplicaciones sencillas para distintos dispositivos como por ejemplo ordenadores, dispositivos y móviles, empleando los elementos de programación de manera apropiada y aplicando herramientas de edición, así como módulos de inteligencia artificial que añadan funcionalidades a la solución.">Criterio 5.2</a></h3>
+<p class="criterio-txt"><strong>Se evalúa:</strong> Programar aplicaciones sencillas para distintos dispositivos como por ejemplo ordenadores, dispositivos y móviles, empleando los elementos de programación de manera apropiada y aplicando herramientas de edición, así como módulos de inteligencia artificial que añadan funcionalidades a la solución.</p>
+<p>Programa la aplicación que controla o complementa tu sistema. Debe usar al menos
+dos subprogramas propios, una lista, y un módulo de IA cuya inclusión esté <strong>justificada</strong>
+frente a la alternativa de resolverlo con reglas.</p>
+<p>Entrega el código comentado, la tabla de pruebas con diez casos y un apartado explicando las
+limitaciones y el posible sesgo del módulo de IA empleado.</p>
+<p class="entrega"><strong>Entrega:</strong> Proyecto ejecutable + tabla de pruebas + memoria, por parejas.</p>
+<details class="rub"><summary>Ver la rúbrica con la que se corrige</summary><div class="tabla-env"><table><thead><tr><th>Indicador</th><th>En inicio (1–4)</th><th>Adecuado (5–6)</th><th>Notable (7–8)</th><th>Excelente (9–10)</th></tr></thead><tbody><tr><th>Estructura del código</th><td>Código sin estructurar y sin comentar.</td><td>Estructura básica, comentarios escasos.</td><td>Bien estructurado en subprogramas y comentado.</td><td>Estructura clara, nombres significativos y comentarios que explican el porqué, no el qué.</td></tr><tr><th>Justificación del uso de IA</th><td>No la justifica o la usa donde bastaban reglas.</td><td>Justificación débil.</td><td>Justifica correctamente por qué la IA aporta aquí.</td><td>Justifica y compara con una implementación alternativa por reglas.</td></tr><tr><th>Pruebas</th><td>Sin tabla de pruebas.</td><td>Tabla incompleta o solo con casos normales.</td><td>Tabla completa con casos límite e imposibles.</td><td>Tabla completa y algún error detectado y corregido gracias a ella.</td></tr><tr><th>Análisis crítico</th><td>No analiza limitaciones.</td><td>Menciona limitaciones genéricas.</td><td>Analiza limitaciones y sesgo de su módulo.</td><td>Analiza y propone cómo reducir ese sesgo con datos mejores.</td></tr></tbody></table></div></details>
+<label class="marcar"><input type="checkbox" data-tarea="e2"> Marcar como entregado</label>
+</article>
+<article class="ejercicio v2" id="e3">
+<h3>Sistema automático conectado a internet <a class="chip" href="3eso-curriculo.html#c5-3" title="Automatizar procesos, máquinas y objetos de manera autónoma, con conexión a internet, mediante el análisis, construcción y programación de robots y sistemas de control.">Criterio 5.3</a></h3>
+<p class="criterio-txt"><strong>Se evalúa:</strong> Automatizar procesos, máquinas y objetos de manera autónoma, con conexión a internet, mediante el análisis, construcción y programación de robots y sistemas de control.</p>
+<p>Construye y programa un sistema de control conectado. Requisitos: al menos dos
+sensores y un actuador, funcionamiento en lazo cerrado, envío de datos a un servicio en línea o panel
+propio, y comportamiento seguro ante la pérdida de conexión.</p>
+<p>Entrega el montaje, el programa, el registro de datos de al menos una hora de funcionamiento, la
+tabla de pruebas y la evaluación de seguridad del dispositivo conectado.</p>
+<p class="entrega"><strong>Entrega:</strong> Montaje + programa + registro de datos, por equipos.</p>
+<details class="rub"><summary>Ver la rúbrica con la que se corrige</summary><div class="tabla-env"><table><thead><tr><th>Indicador</th><th>En inicio (1–4)</th><th>Adecuado (5–6)</th><th>Notable (7–8)</th><th>Excelente (9–10)</th></tr></thead><tbody><tr><th>Sistema de control</th><td>No funciona en lazo cerrado.</td><td>Lazo cerrado con respuesta inestable.</td><td>Lazo cerrado estable con dos sensores.</td><td>Estable, con filtrado de lecturas y respuesta bien ajustada.</td></tr><tr><th>Conectividad</th><td>No consigue enviar datos.</td><td>Envía datos de forma intermitente.</td><td>Envía y registra datos de forma fiable.</td><td>Envío fiable y panel de visualización útil y bien diseñado.</td></tr><tr><th>Comportamiento ante fallos</th><td>El sistema queda en estado inseguro.</td><td>Responde al fallo de forma parcial.</td><td>Mantiene un estado seguro sin conexión.</td><td>Estado seguro, aviso del fallo y sincronización posterior de los datos.</td></tr><tr><th>Seguridad del dispositivo</th><td>No la considera.</td><td>Aplica alguna medida básica.</td><td>Contraseña propia, actualizaciones y exposición mínima.</td><td>Además documenta los riesgos residuales del dispositivo conectado.</td></tr></tbody></table></div></details>
+<label class="marcar"><input type="checkbox" data-tarea="e3"> Marcar como entregado</label>
+</article>
+<section class="resumen"><h2>Lo esencial de esta unidad</h2><ul><li>Subprogramas y funciones: trocear para poder entender, probar y arreglar.</li><li>Listas y filtrado de lecturas: decidir con la tendencia, no con el dato suelto.</li><li>Cuándo la IA aporta y cuándo un simple condicional es la mejor solución.</li><li>Arquitectura IoT en cuatro capas y diseño seguro ante la caída de la red.</li><li>Pruebas por casos: normal, límite e imposible; la tabla de pruebas como documentación.</li></ul></section>
+<nav class="nav-ud"><a href="3eso-ud07.html"><small>← Unidad anterior</small>UD7. Fabricación y difusión avanzada</a><a href="3eso-ud09.html" style="text-align:right"><small>Unidad siguiente →</small>UD9. Proyecto de digitalización segura</a></nav>
+</main>
+<footer>
+  <div class="pie-int">
+    <span>Tecnología y Digitalización · 3.º ESO · Coria del Río (Sevilla)</span>
+    <span><a href="index.html">Todos los cursos</a> · <a href="glosario.html">Glosario</a></span>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

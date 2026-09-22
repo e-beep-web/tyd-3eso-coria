@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>UD3. Programación y robótica · 3.º ESO</title>
+<meta name="description" content="Ordenar las ideas para que una máquina las ejecute">
+<link rel="stylesheet" href="estilos.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><text y='19' font-size='19'>&#9881;</text></svg>">
+</head>
+<body>
+<header class="barra">
+  <div class="barra-int">
+    <a class="marca" href="index.html">
+      <span class="sello">TYD·3</span>
+      <span>Tecnología y Digitalización<small>3.º ESO · Coria del Río (Sevilla)</small></span>
+    </a>
+    <nav class="nav" aria-label="Principal">
+      <a href="3eso.html">3.º ESO</a><a href="3eso-curriculo.html">Currículo</a><a href="3eso-rubricas.html">Rúbricas</a><a href="3eso-presentacion.html">Presentación</a><a href="3eso-diagnostico.html">¿Qué sé ya?</a><a href="glosario.html">Glosario</a>
+      <button type="button" data-tema-bt aria-pressed="false" title="Cambiar entre modo claro y oscuro">Tema</button>
+    </nav>
+  </div>
+</header>
+<main>
+<div class="cabecera-ud">
+<p class="eyebrow">3.º ESO · Unidad 3 · 1.ª vuelta</p>
+<h1>Programación y robótica</h1>
+<p class="subtitulo">Ordenar las ideas para que una máquina las ejecute</p>
+<p>Programar no es escribir código: es pensar con un orden tan estricto que una máquina
+pueda seguirlo. El código viene después, y es la parte fácil.</p>
+<p>En esta unidad pasarás de describir tareas cotidianas paso a paso, a dibujarlas como diagramas, a
+programarlas y finalmente a conectarlas con el mundo real mediante sensores y actuadores.</p>
+<div class="ficha">
+  <span class="dato"><b>7</b> sesiones</span>
+  <span class="dato"><b>6</b> apartados de teoría</span>
+  <span class="dato"><b>3</b> ejercicios evaluables</span>
+</div>
+<div class="ficha" style="margin-top:.6rem"><span class="dato">Criterios</span><a class="chip" href="3eso-curriculo.html#c5-1" title="Describir, interpretar y diseñar soluciones a problemas informáticos a través de algoritmos y diagramas de flujo, aplicando los elementos y técnicas de programación de manera creativa.">5.1</a> <a class="chip" href="3eso-curriculo.html#c5-2" title="Programar aplicaciones sencillas para distintos dispositivos como por ejemplo ordenadores, dispositivos y móviles, empleando los elementos de programación de manera apropiada y aplicando herramientas de edición, así como módulos de inteligencia artificial que añadan funcionalidades a la solución.">5.2</a> <a class="chip" href="3eso-curriculo.html#c5-3" title="Automatizar procesos, máquinas y objetos de manera autónoma, con conexión a internet, mediante el análisis, construcción y programación de robots y sistemas de control.">5.3</a></div>
+<div class="ficha" style="margin-top:.4rem"><span class="dato">Saberes</span><a class="chip s" href="3eso-curriculo.html#sC-1" title="Aplicaciones informáticas sencillas para ordenador y dispositivos móviles e introducción a la inteligencia artificial.">C.1</a> <a class="chip s" href="3eso-curriculo.html#sC-2" title="Fundamentos de la robótica: montaje y control programado de robots simples de manera física o por medio de simuladores.">C.2</a> <a class="chip s" href="3eso-curriculo.html#sC-3" title="Autoconfianza e iniciativa: el error, la reevaluación y la depuración de errores como parte del proceso de aprendizaje.">C.3</a></div>
+<p class="reto">¿Cómo se le explica una tarea a una máquina que no entiende nada de lo que das por supuesto?</p>
+</div>
+<section class="mapa">
+  <h2>Mapa de la unidad</h2>
+  <p class="pista">Línea continua: teoría. Línea discontinua y borde de trazos: ejercicio evaluable y
+  la teoría de la que depende. Toca cualquier nodo para ir a su contenido.</p>
+  <div class="mapa-lienzo"><svg viewBox="0 0 900 530" role="img" aria-label="Mapa conceptual de la unidad 3"><path class="enlace" data-enlace-de="t1" d="M 248 265.0 C 290 265.0 290 65.0 330 65.0"/><path class="enlace" data-enlace-de="t2" d="M 248 265.0 C 290 265.0 290 145.0 330 145.0"/><path class="enlace" data-enlace-de="t3" d="M 248 265.0 C 290 265.0 290 225.0 330 225.0"/><path class="enlace" data-enlace-de="t4" d="M 248 265.0 C 290 265.0 290 305.0 330 305.0"/><path class="enlace" data-enlace-de="t5" d="M 248 265.0 C 290 265.0 290 385.0 330 385.0"/><path class="enlace" data-enlace-de="t6" d="M 248 265.0 C 290 265.0 290 465.0 330 465.0"/><path class="enlace dep" data-enlace-de="e1" d="M 556 65.0 C 600 65.0 600 173.0 642 173.0"/><path class="enlace dep" data-enlace-de="e1" d="M 556 145.0 C 600 145.0 600 173.0 642 173.0"/><path class="enlace dep" data-enlace-de="e2" d="M 556 225.0 C 600 225.0 600 265.0 642 265.0"/><path class="enlace dep" data-enlace-de="e2" d="M 556 305.0 C 600 305.0 600 265.0 642 265.0"/><path class="enlace dep" data-enlace-de="e2" d="M 556 465.0 C 600 465.0 600 265.0 642 265.0"/><path class="enlace dep" data-enlace-de="e3" d="M 556 385.0 C 600 385.0 600 357.0 642 357.0"/><path class="enlace dep" data-enlace-de="e3" d="M 556 465.0 C 600 465.0 600 357.0 642 357.0"/><g class="nodo centro"><rect class="caja" x="16" y="229.0" width="232" height="72" rx="5"/><text x="132" y="259.0" text-anchor="middle">UD3</text><text x="132" y="279.0" text-anchor="middle" font-size="11.5" font-weight="500">Programación y robótica</text></g><g class="nodo teoria" tabindex="0" role="link" data-destino="t1"><rect class="caja" x="330" y="36.0" width="226" height="58" rx="4"/><text x="443" y="55.5" text-anchor="middle">Algoritmos: pensar paso</text><text x="443" y="70.5" text-anchor="middle">a paso</text></g><g class="nodo teoria" tabindex="0" role="link" data-destino="t2"><rect class="caja" x="330" y="116.0" width="226" height="58" rx="4"/><text x="443" y="135.5" text-anchor="middle">Diagramas de flujo y</text><text x="443" y="150.5" text-anchor="middle">pseudocódigo</text></g><g class="nodo teoria" tabindex="0" role="link" data-destino="t3"><rect class="caja" x="330" y="196.0" width="226" height="58" rx="4"/><text x="443" y="215.5" text-anchor="middle">Programar: variables,</text><text x="443" y="230.5" text-anchor="middle">condicionales y bucles</text></g><g class="nodo teoria" tabindex="0" role="link" data-destino="t4"><rect class="caja" x="330" y="276.0" width="226" height="58" rx="4"/><text x="443" y="288.0" text-anchor="middle">La inteligencia</text><text x="443" y="303.0" text-anchor="middle">artificial como una</text><text x="443" y="318.0" text-anchor="middle">pieza más</text></g><g class="nodo teoria" tabindex="0" role="link" data-destino="t5"><rect class="caja" x="330" y="356.0" width="226" height="58" rx="4"/><text x="443" y="375.5" text-anchor="middle">Sensores, actuadores y</text><text x="443" y="390.5" text-anchor="middle">sistemas de control</text></g><g class="nodo teoria" tabindex="0" role="link" data-destino="t6"><rect class="caja" x="330" y="436.0" width="226" height="58" rx="4"/><text x="443" y="455.5" text-anchor="middle">El error forma parte del</text><text x="443" y="470.5" text-anchor="middle">trabajo</text></g><g class="nodo tarea" tabindex="0" role="link" data-destino="e1"><rect class="caja" x="642" y="140.0" width="240" height="66" rx="4"/><text class="cod" x="762" y="156.0" text-anchor="middle">CRITERIO 5.1</text><text x="762" y="168.5" text-anchor="middle">Algoritmo y diagrama de</text><text x="762" y="183.5" text-anchor="middle">flujo de un proceso real</text></g><g class="nodo tarea" tabindex="0" role="link" data-destino="e2"><rect class="caja" x="642" y="232.0" width="240" height="66" rx="4"/><text class="cod" x="762" y="248.0" text-anchor="middle">CRITERIO 5.2</text><text x="762" y="260.5" text-anchor="middle">Aplicación programada</text><text x="762" y="275.5" text-anchor="middle">con un módulo de IA</text></g><g class="nodo tarea" tabindex="0" role="link" data-destino="e3"><rect class="caja" x="642" y="324.0" width="240" height="66" rx="4"/><text class="cod" x="762" y="340.0" text-anchor="middle">CRITERIO 5.3</text><text x="762" y="352.5" text-anchor="middle">Automatización de un</text><text x="762" y="367.5" text-anchor="middle">sistema con sensores</text></g></svg></div>
+  <ul class="mapa-lista"><li><a href="#t1" data-destino="t1"><span class="cod">TEORÍA</span>Algoritmos: pensar paso a paso</a></li><li><a href="#t2" data-destino="t2"><span class="cod">TEORÍA</span>Diagramas de flujo y pseudocódigo</a></li><li><a href="#t3" data-destino="t3"><span class="cod">TEORÍA</span>Programar: variables, condicionales y bucles</a></li><li><a href="#t4" data-destino="t4"><span class="cod">TEORÍA</span>La inteligencia artificial como una pieza más</a></li><li><a href="#t5" data-destino="t5"><span class="cod">TEORÍA</span>Sensores, actuadores y sistemas de control</a></li><li><a href="#t6" data-destino="t6"><span class="cod">TEORÍA</span>El error forma parte del trabajo</a></li><li class="tarea"><a href="#e1" data-destino="e1"><span class="cod">EJERCICIO · CRITERIO 5.1</span>Algoritmo y diagrama de flujo de un proceso real</a></li><li class="tarea"><a href="#e2" data-destino="e2"><span class="cod">EJERCICIO · CRITERIO 5.2</span>Aplicación programada con un módulo de IA</a></li><li class="tarea"><a href="#e3" data-destino="e3"><span class="cod">EJERCICIO · CRITERIO 5.3</span>Automatización de un sistema con sensores</a></li></ul>
+</section>
+<section class="progreso" data-progreso-ud="3eso3">
+<strong>Tu progreso en esta unidad</strong>
+<div class="barra-p"><div class="relleno"></div></div>
+<span data-progreso-txt style="font-size:.88rem;color:var(--tinta-2)"></span>
+<p class="aviso">Las marcas se guardan solo en este navegador y en este dispositivo: no las ve el
+profesorado y no sustituyen a la entrega real. Si usas un ordenador compartido del aula, es normal que
+no aparezcan. <button type="button" class="bt" data-reset>Desmarcar todo</button></p>
+</section>
+<div class="bloque-titulo"><h2>Teoría</h2><span class="et">6 apartados</span><button type="button" class="bt" data-abrir-todo data-abierto="0" style="margin-left:auto">Desplegar todo</button></div>
+<details class="seccion" id="t1" open><summary><span class="num">1</span>Algoritmos: pensar paso a paso<span class="flecha"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M9 5 l7 7 l-7 7"/></svg></span></summary><div class="cuerpo"><p>Un <a class="termino" href="glosario.html#algoritmo" title="Algoritmo: Secuencia ordenada y finita de pasos que resuelve un problema. Una receta de cocina es un algoritmo.">algoritmo</a> es una secuencia ordenada y finita de pasos que resuelve un
+problema. Tiene que cumplir tres condiciones: que cada paso sea <strong>preciso</strong> (sin
+ambigüedad), que el orden importe y que <strong>termine</strong>.</p>
+<p>La dificultad real es que nosotros damos por supuestas montones de cosas y una máquina no supone
+nada. Si escribes «unta la tostada con mantequilla», un robot no sabe si abrir el bote, con qué,
+cuánta, ni por qué cara de la tostada.</p>
+<p>Antes de programar conviene descomponer: partir un problema grande en trozos pequeños que sepas
+resolver por separado. Es la misma idea que el despiece de una pieza en el taller.</p><div class="caja caja-vida"><span class="et"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="var(--tinta-3)" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 4 A7 7 0 1 0 11 18 A7 7 0 1 0 11 4 M16 16 L21 21"/></svg> En tu vida diaria</span><p>Las instrucciones de montaje de un mueble de IKEA son un algoritmo: pasos
+numerados, sin palabras ambiguas y con el orden fijado. Si te saltas el paso 4, el 9 no encaja. Un
+programa se comporta exactamente igual.</p></div><div class="caja caja-act"><span class="et"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="var(--ambar-txt)" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 6 h13 M8 12 h13 M8 18 h13 M3 6 h.01 M3 12 h.01 M3 18 h.01"/></svg> Actividad 1 · no evaluable</span><p>Escribe el algoritmo para que un compañero, con los ojos
+vendados, dibuje un cuadrado en la pizarra. Pruébalo de verdad. Cuenta cuántas veces has tenido que
+improvisar una instrucción que no habías escrito: esos son los supuestos que dabas por hechos.</p></div></div></details>
+<details class="seccion" id="t2"><summary><span class="num">2</span>Diagramas de flujo y pseudocódigo<span class="flecha"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M9 5 l7 7 l-7 7"/></svg></span></summary><div class="cuerpo"><p>Un <a class="termino" href="glosario.html#diagrama-flujo" title="Diagrama de flujo: Representación gráfica de un algoritmo mediante símbolos normalizados unidos por flechas.">diagrama de flujo</a> dibuja el algoritmo con símbolos normalizados unidos por
+flechas. Su ventaja es que las decisiones y las repeticiones se ven de un vistazo, cosa que en un texto
+se pierde.</p>
+<p>Cuatro símbolos bastan para casi todo: el óvalo para inicio y fin, el rectángulo para un proceso, el
+rombo para una decisión (con dos salidas, sí y no) y el romboide para entrada o salida de datos.</p>
+<p>El <a class="termino" href="glosario.html#pseudocodigo" title="Pseudocódigo: Escritura de un algoritmo en lenguaje natural ordenado, sin las reglas estrictas de un lenguaje de programación.">pseudocódigo</a> es la alternativa escrita: el algoritmo en lenguaje normal pero ordenado y con
+sangrías. Se usa cuando el diagrama sería demasiado grande.</p><figure class="esquema"><div class="esquema-lienzo"><svg viewBox="0 0 800 372" role="img" aria-label="A la izquierda los cuatro símbolos básicos; a la derecha, un algoritmo real de control." xmlns="http://www.w3.org/2000/svg">
+<text x="140" y="30" text-anchor="middle" class="svg-lbl-b" fill="var(--verde-txt)">LOS SÍMBOLOS</text>
+<g stroke="var(--tinta)" stroke-width="2" fill="var(--papel-2)">
+<rect x="60" y="50" width="160" height="38" rx="19"/>
+<rect x="60" y="108" width="160" height="38"/>
+<path d="M 140 166 L 220 194 L 140 222 L 60 194 Z"/>
+<path d="M 78 242 h 160 l -18 38 h -160 z"/>
+</g>
+<text x="140" y="74" text-anchor="middle" class="svg-lbl">Inicio / Fin</text>
+<text x="140" y="132" text-anchor="middle" class="svg-lbl">Proceso</text>
+<text x="140" y="199" text-anchor="middle" class="svg-lbl">¿Decisión?</text>
+<text x="146" y="266" text-anchor="middle" class="svg-lbl">Entrada / Salida</text>
+<line x1="288" y1="15" x2="288" y2="350" stroke="var(--linea)" stroke-dasharray="6 4"/>
+<text x="552" y="30" text-anchor="middle" class="svg-lbl-b" fill="var(--verde-txt)">EJEMPLO: RIEGO AUTOMÁTICO DE UN ARROZAL</text>
+<g stroke="var(--tinta)" stroke-width="2" fill="var(--papel-2)">
+<rect x="477" y="46" width="150" height="34" rx="17"/>
+<path d="M 452 102 h 218 l -18 34 h -218 z"/>
+<path d="M 552 150 L 660 186 L 552 222 L 444 186 Z" fill="var(--verde-suave)"/>
+<rect x="316" y="240" width="128" height="36"/>
+<rect x="660" y="240" width="128" height="36"/>
+<rect x="477" y="300" width="150" height="34" rx="17"/>
+</g>
+<text x="552" y="68" text-anchor="middle" class="svg-lbl">INICIO</text>
+<text x="556" y="124" text-anchor="middle" class="svg-lbl">Leer sensor de humedad</text>
+<text x="552" y="182" text-anchor="middle" class="svg-lbl">¿Humedad</text>
+<text x="552" y="198" text-anchor="middle" class="svg-lbl">menor del 60 %?</text>
+<text x="380" y="263" text-anchor="middle" class="svg-lbl">Abrir válvula</text>
+<text x="724" y="263" text-anchor="middle" class="svg-lbl">Cerrar válvula</text>
+<text x="552" y="322" text-anchor="middle" class="svg-lbl">Esperar 10 min</text>
+<g stroke="var(--linea)" stroke-width="2" fill="none" marker-end="url(#df)">
+<line x1="552" y1="80" x2="552" y2="98"/>
+<line x1="552" y1="136" x2="552" y2="146"/>
+<path d="M 444 186 H 380 V 236"/>
+<path d="M 660 186 H 724 V 236"/>
+<path d="M 380 276 V 317 H 473"/>
+<path d="M 724 276 V 317 H 631"/>
+<path d="M 552 334 V 356 H 306 V 119 H 448" stroke-dasharray="5 4"/>
+</g>
+<text x="398" y="178" class="svg-lbl-b" fill="var(--verde-txt)">Sí</text>
+<text x="676" y="178" class="svg-lbl-b" fill="var(--ambar-txt)">No</text>
+<defs><marker id="df" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 z" fill="var(--linea)"/></marker></defs>
+</svg></div><figcaption>A la izquierda los cuatro símbolos básicos; a la derecha, un algoritmo real de control.</figcaption></figure><div class="caja caja-coria"><span class="et"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="var(--verde-txt)" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 6 l6 -3 l6 3 l6 -3 v15 l-6 3 l-6 -3 l-6 3 z M9 3 v15 M15 6 v15"/></svg> Aquí, en Coria del Río</span><p>El arroz de las marismas del Guadalquivir necesita que las parcelas mantengan una
+lámina de agua constante. Automatizar eso es un algoritmo de manual: leer el nivel, comparar con el
+valor deseado, abrir o cerrar la compuerta y volver a empezar. El diagrama de al lado es exactamente
+ese sistema. En Isla Mayor y La Puebla del Río, buena parte del riego se gestiona ya con lógicas de
+este tipo.</p></div><div class="caja caja-act"><span class="et"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="var(--ambar-txt)" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 6 h13 M8 12 h13 M8 18 h13 M3 6 h.01 M3 12 h.01 M3 18 h.01"/></svg> Actividad 2 · no evaluable</span><p>Dibuja el diagrama de flujo del funcionamiento de un
+torniquete de metro: lee la tarjeta, comprueba el saldo, abre o muestra un aviso. Incluye qué pasa si
+el saldo es insuficiente.</p></div></div></details>
+<details class="seccion" id="t3"><summary><span class="num">3</span>Programar: variables, condicionales y bucles<span class="flecha"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M9 5 l7 7 l-7 7"/></svg></span></summary><div class="cuerpo"><p>Con tres herramientas se puede programar prácticamente cualquier cosa.</p>
+<p>Una <a class="termino" href="glosario.html#variable-prog" title="Variable (programación): Espacio con nombre donde el programa guarda un dato que puede cambiar durante la ejecución.">variable (programación)</a> es una caja con nombre donde se guarda un dato que puede cambiar:
+<code>puntuacion</code>, <code>temperatura</code>, <code>intentos</code>. Ponerle un nombre que se
+entienda es la diferencia entre un programa que puedes arreglar dentro de un mes y uno que no.</p>
+<p>Un <a class="termino" href="glosario.html#condicional" title="Condicional: Instrucción que hace que el programa elija entre dos caminos según se cumpla o no una condición.">condicional</a> elige entre caminos: <em>si</em> se cumple algo, haz esto; <em>si no</em>, haz
+aquello. Es el rombo del diagrama de flujo.</p>
+<p>Un <a class="termino" href="glosario.html#bucle" title="Bucle: Instrucción que repite un bloque de código un número de veces o mientras se cumpla una condición.">bucle</a> repite. Los hay de dos tipos: repetir un número fijo de veces, o repetir
+<em>mientras</em> se cumpla una condición. El segundo es potente y peligroso: si la condición nunca deja
+de cumplirse, el programa se queda dando vueltas para siempre.</p><div class="caja caja-vida"><span class="et"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="var(--tinta-3)" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 4 A7 7 0 1 0 11 18 A7 7 0 1 0 11 4 M16 16 L21 21"/></svg> En tu vida diaria</span><p>El microondas es un programa entero: una variable (el tiempo), un bucle (cuenta
+atrás mientras quede tiempo) y un condicional (si abres la puerta, para). Y cuando termina, una
+salida: el pitido.</p></div><div class="caja caja-act"><span class="et"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="var(--ambar-txt)" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 6 h13 M8 12 h13 M8 18 h13 M3 6 h.01 M3 12 h.01 M3 18 h.01"/></svg> Actividad 3 · no evaluable</span><p>Programa un juego de adivinar un número del 1 al 100. El
+programa debe decir «más alto» o «más bajo», contar los intentos y terminar cuando se acierte. Después
+piensa: ¿cuál es el número máximo de intentos que necesitarías si eligieras siempre la mitad del
+intervalo?</p></div></div></details>
+<details class="seccion" id="t4"><summary><span class="num">4</span>La inteligencia artificial como una pieza más<span class="flecha"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M9 5 l7 7 l-7 7"/></svg></span></summary><div class="cuerpo"><p>La <a class="termino" href="glosario.html#ia" title="Inteligencia artificial: Conjunto de técnicas que permiten a un programa realizar tareas que asociamos a la inteligencia humana, como reconocer imágenes o generar texto.">inteligencia artificial</a> no es magia ni un cerebro. Es un programa que ha aprendido a partir de
+muchos ejemplos; a eso se le llama <a class="termino" href="glosario.html#modelo-entrenado" title="Modelo entrenado: Programa de IA que ha aprendido a partir de muchos ejemplos. Lo que aprende depende por completo de los ejemplos que se le dieron.">modelo entrenado</a>. Si le enseñas diez mil fotos etiquetadas de
+cangrejos, aprenderá a reconocer un cangrejo. No sabe qué es un cangrejo: sabe qué patrones de píxeles
+aparecían en las fotos que le dijiste que lo eran.</p>
+<p>De ahí sale su mayor limitación, el <a class="termino" href="glosario.html#sesgo-algoritmico" title="Sesgo algorítmico: Error sistemático de un sistema de IA que perjudica a un grupo de personas porque los datos de entrenamiento estaban desequilibrados.">sesgo algorítmico</a>: el modelo hereda los desequilibrios de
+sus datos. Si todas las fotos de entrenamiento se tomaron con buena luz, fallará de noche. Y si un
+sistema que decide sobre personas se entrena con datos de un solo tipo de persona, perjudicará al
+resto.</p>
+<p>En tus proyectos la IA es un bloque más: le pasas una entrada (una imagen, una frase, un sonido) y te
+devuelve una salida (una clasificación, un texto). Tú sigues siendo responsable de lo que el programa
+haga con esa respuesta.</p><div class="caja caja-coria"><span class="et"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="var(--verde-txt)" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 6 l6 -3 l6 3 l6 -3 v15 l-6 3 l-6 -3 l-6 3 z M9 3 v15 M15 6 v15"/></svg> Aquí, en Coria del Río</span><p>En los arrozales y los caños del Guadalquivir, el cangrejo rojo americano es una
+<a class="termino" href="glosario.html#especie-invasora" title="Especie invasora: Especie introducida fuera de su área natural que se expande y desplaza a las especies autóctonas.">especie invasora</a> desde su introducción en los años setenta, y hoy sostiene una industria
+importante en Isla Mayor. Un clasificador de imágenes entrenado para distinguir cangrejo rojo de
+especies autóctonas es un ejemplo real de IA útil y cercana. Y también un buen banco de pruebas para el
+sesgo: si lo entrenas solo con fotos de ejemplares adultos, fallará con los pequeños.</p></div><div class="caja caja-act"><span class="et"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="var(--ambar-txt)" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 6 h13 M8 12 h13 M8 18 h13 M3 6 h.01 M3 12 h.01 M3 18 h.01"/></svg> Actividad 4 · no evaluable</span><p>Entrena un clasificador de imágenes con dos categorías usando
+una herramienta de entrenamiento en el navegador. Usa solo 10 fotos de cada una y prueba su acierto.
+Después súbelas a 50 y vuelve a probar. Anota qué cambia y qué tipo de fotos sigue fallando.</p></div></div></details>
+<details class="seccion" id="t5"><summary><span class="num">5</span>Sensores, actuadores y sistemas de control<span class="flecha"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M9 5 l7 7 l-7 7"/></svg></span></summary><div class="cuerpo"><p>Hasta ahora el programa vivía dentro de la pantalla. Un <a class="termino" href="glosario.html#sistema-control" title="Sistema de control: Conjunto formado por sensores, un controlador y actuadores que hace que una máquina funcione sola.">sistema de control</a> lo
+saca al mundo real con tres piezas: <a class="termino" href="glosario.html#sensor" title="Sensor: Componente que capta una magnitud del entorno (luz, temperatura, distancia, humedad) y la convierte en una señal eléctrica.">sensor</a>es que miden, un <a class="termino" href="glosario.html#microcontrolador" title="Microcontrolador: Ordenador diminuto dentro de un único chip, que ejecuta el programa de un robot o de un electrodoméstico.">microcontrolador</a> que decide y
+<a class="termino" href="glosario.html#actuador" title="Actuador: Componente que actúa sobre el entorno: un motor, una bombilla, una electroválvula, un altavoz.">actuador</a>es que actúan.</p>
+<p>La distinción clave es entre lazo abierto y <a class="termino" href="glosario.html#lazo-cerrado" title="Lazo cerrado: Sistema de control que mide el resultado de su propia acción y se corrige. El termostato de una casa funciona así.">lazo cerrado</a>. Un sistema de lazo abierto actúa a
+ciegas: una lavadora que centrifuga cinco minutos los centrifuga llena o vacía. Uno de lazo cerrado
+mide el resultado de su propia acción y se corrige, como el termostato del aire acondicionado del
+aula.</p>
+<p>Casi todo lo interesante en automatización es de lazo cerrado, y todo sistema de lazo cerrado
+necesita realimentación: el camino de vuelta desde el actuador hasta el sensor.</p><figure class="esquema"><div class="esquema-lienzo"><svg viewBox="0 0 800 310" role="img" aria-label="Todo sistema automático se reduce a este esquema, desde un termostato hasta un robot." xmlns="http://www.w3.org/2000/svg">
+<g class="svg-caja">
+<rect x="40" y="90" width="150" height="80" rx="4" fill="var(--verde-suave)" stroke="var(--verde)" stroke-width="2.5"/>
+<rect x="315" y="90" width="170" height="80" rx="4" fill="var(--papel-2)" stroke="var(--tinta)" stroke-width="2.5"/>
+<rect x="596" y="90" width="178" height="80" rx="4" fill="var(--ambar-suave)" stroke="var(--ambar)" stroke-width="2.5"/>
+</g>
+<text x="115" y="124" text-anchor="middle" class="svg-lbl-b">SENSOR</text>
+<text x="115" y="146" text-anchor="middle" class="svg-lbl">mide el entorno</text>
+<text x="400" y="118" text-anchor="middle" class="svg-lbl-b">CONTROLADOR</text>
+<text x="400" y="140" text-anchor="middle" class="svg-lbl">decide según</text>
+<text x="400" y="157" text-anchor="middle" class="svg-lbl">el programa</text>
+<text x="685" y="124" text-anchor="middle" class="svg-lbl-b">ACTUADOR</text>
+<text x="685" y="146" text-anchor="middle" class="svg-lbl">actúa sobre el entorno</text>
+<g stroke="var(--linea)" stroke-width="2.5" marker-end="url(#sc)">
+<line x1="192" y1="130" x2="308" y2="130"/><line x1="487" y1="130" x2="589" y2="130"/>
+</g>
+<text x="250" y="118" text-anchor="middle" class="svg-lbl">señal</text>
+<text x="538" y="118" text-anchor="middle" class="svg-lbl">orden</text>
+<path d="M 685 175 v 55 H 115 v -52" fill="none" stroke="var(--verde)" stroke-width="2.5" stroke-dasharray="7 5" marker-end="url(#sc2)"/>
+<text x="400" y="252" text-anchor="middle" class="svg-lbl-b" fill="var(--verde-txt)">REALIMENTACIÓN: el sensor vuelve a medir el efecto de la acción</text>
+<text x="400" y="278" text-anchor="middle" class="svg-lbl">Con este camino de vuelta, el sistema es de lazo cerrado y se corrige solo.</text>
+<text x="400" y="298" text-anchor="middle" class="svg-lbl">Sin él, sería de lazo abierto: actuaría a ciegas.</text>
+<text x="400" y="48" text-anchor="middle" class="svg-lbl-b">Ejemplo: aire acondicionado del aula</text>
+<text x="400" y="68" text-anchor="middle" class="svg-lbl">termómetro → placa de control → compresor</text>
+<defs>
+<marker id="sc" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 z" fill="var(--linea)"/></marker>
+<marker id="sc2" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 z" fill="var(--verde)"/></marker>
+</defs>
+</svg></div><figcaption>Todo sistema automático se reduce a este esquema, desde un termostato hasta un robot.</figcaption></figure><div class="caja caja-vida"><span class="et"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="var(--tinta-3)" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 4 A7 7 0 1 0 11 18 A7 7 0 1 0 11 4 M16 16 L21 21"/></svg> En tu vida diaria</span><p>El grifo automático del baño es lazo abierto: detecta la mano y suelta agua un
+tiempo fijo. El horno de casa es lazo cerrado: mide la temperatura y enciende o apaga la resistencia
+para mantener los 180 °C. Por eso el horno acierta y el grifo a veces te deja con jabón.</p></div><div class="caja caja-act"><span class="et"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="var(--ambar-txt)" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 6 h13 M8 12 h13 M8 18 h13 M3 6 h.01 M3 12 h.01 M3 18 h.01"/></svg> Actividad 5 · no evaluable</span><p>Identifica en el instituto tres sistemas automáticos. Para cada
+uno, di cuál es el sensor, cuál el actuador y si es de lazo abierto o cerrado. Justifica la
+respuesta.</p></div></div></details>
+<details class="seccion" id="t6"><summary><span class="num">6</span>El error forma parte del trabajo<span class="flecha"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M9 5 l7 7 l-7 7"/></svg></span></summary><div class="cuerpo"><p>Ningún programa sale bien a la primera. La <a class="termino" href="glosario.html#depuracion" title="Depuración: Proceso de buscar y corregir errores en un programa. En inglés, debugging.">depuración</a> —encontrar y corregir
+errores— no es lo que haces cuando fallas: es una parte central de programar, y los profesionales le
+dedican más tiempo que a escribir.</p>
+<p>Un método que funciona:</p>
+<ol>
+<li>Reproduce el error de forma fiable. Un fallo que aparece «a veces» es un fallo que aún no
+entiendes.</li>
+<li>Reduce el problema: quita todo lo que no sea imprescindible hasta quedarte con el trozo mínimo que
+falla.</li>
+<li>Comprueba tus suposiciones con mensajes que muestren el valor de las variables. Casi siempre el
+error está en algo que dabas por hecho.</li>
+<li>Cambia una sola cosa cada vez. Si cambias tres y funciona, no sabrás por qué.</li>
+</ol>
+<p>Eso último te sonará: es exactamente la regla del método científico de la UD1.</p><div class="caja caja-vida"><span class="et"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="var(--tinta-3)" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 4 A7 7 0 1 0 11 18 A7 7 0 1 0 11 4 M16 16 L21 21"/></svg> En tu vida diaria</span><p>Cuando el wifi no va, no cambias el router, el cable y el móvil a la vez: vas
+probando de uno en uno. Depurar es eso mismo aplicado al código.</p></div></div></details>
+<div class="bloque-titulo"><h2>Ejercicios evaluables</h2><span class="et">cada uno con su criterio y su rúbrica</span></div>
+<article class="ejercicio" id="e1">
+<h3>Algoritmo y diagrama de flujo de un proceso real <a class="chip" href="3eso-curriculo.html#c5-1" title="Describir, interpretar y diseñar soluciones a problemas informáticos a través de algoritmos y diagramas de flujo, aplicando los elementos y técnicas de programación de manera creativa.">Criterio 5.1</a></h3>
+<p class="criterio-txt"><strong>Se evalúa:</strong> Describir, interpretar y diseñar soluciones a problemas informáticos a través de algoritmos y diagramas de flujo, aplicando los elementos y técnicas de programación de manera creativa.</p>
+<p>Elige un proceso automatizable de tu entorno (el riego de una parcela, el
+semáforo de un cruce, la puerta de un ascensor, el sistema de acceso del instituto). Entrega:</p>
+<ol>
+<li>El algoritmo en pseudocódigo, con sus entradas y salidas identificadas.</li>
+<li>El diagrama de flujo completo, con símbolos normalizados.</li>
+<li>Al menos una decisión y una repetición debidamente representadas.</li>
+<li>La respuesta a: ¿qué pasa si el sensor falla? Represéntalo también.</li>
+</ol>
+<p class="entrega"><strong>Entrega:</strong> Documento con el diagrama, individual.</p>
+<details class="rub"><summary>Ver la rúbrica con la que se corrige</summary><div class="tabla-env"><table><thead><tr><th>Indicador</th><th>En inicio (1–4)</th><th>Adecuado (5–6)</th><th>Notable (7–8)</th><th>Excelente (9–10)</th></tr></thead><tbody><tr><th>Corrección del algoritmo</th><td>Pasos ambiguos o el proceso no termina.</td><td>El algoritmo funciona en el caso normal pero no en los demás.</td><td>Algoritmo preciso, finito y correcto.</td><td>Correcto y además eficiente, sin pasos innecesarios.</td></tr><tr><th>Uso de los símbolos</th><td>Usa los símbolos de forma incorrecta.</td><td>Los usa con algunos errores.</td><td>Usa correctamente los cuatro símbolos básicos.</td><td>Los usa correctamente y el diagrama se lee sin explicación.</td></tr><tr><th>Decisiones y bucles</th><td>No aparecen o están mal representados.</td><td>Aparecen pero la lógica tiene fallos.</td><td>Decisión y repetición correctamente representadas.</td><td>Correctas y con las condiciones de salida bien delimitadas.</td></tr><tr><th>Previsión de fallos</th><td>No la contempla.</td><td>La menciona sin representarla.</td><td>Representa el caso de fallo del sensor.</td><td>Representa el fallo y propone una respuesta segura del sistema.</td></tr></tbody></table></div></details>
+<label class="marcar"><input type="checkbox" data-tarea="e1"> Marcar como entregado</label>
+</article>
+<article class="ejercicio" id="e2">
+<h3>Aplicación programada con un módulo de IA <a class="chip" href="3eso-curriculo.html#c5-2" title="Programar aplicaciones sencillas para distintos dispositivos como por ejemplo ordenadores, dispositivos y móviles, empleando los elementos de programación de manera apropiada y aplicando herramientas de edición, así como módulos de inteligencia artificial que añadan funcionalidades a la solución.">Criterio 5.2</a></h3>
+<p class="criterio-txt"><strong>Se evalúa:</strong> Programar aplicaciones sencillas para distintos dispositivos como por ejemplo ordenadores, dispositivos y móviles, empleando los elementos de programación de manera apropiada y aplicando herramientas de edición, así como módulos de inteligencia artificial que añadan funcionalidades a la solución.</p>
+<p>Programa una aplicación sencilla que resuelva un problema real y que incorpore un
+módulo de inteligencia artificial (reconocimiento de imagen, de voz o de texto).</p>
+<p>Debe usar al menos dos variables, un condicional y un bucle, y el código ha de estar comentado.
+Entrega además un registro de depuración: tres errores que encontraste, cómo los detectaste y cómo los
+resolviste.</p>
+<p class="entrega"><strong>Entrega:</strong> Proyecto ejecutable + registro de depuración, individual o por parejas.</p>
+<details class="rub"><summary>Ver la rúbrica con la que se corrige</summary><div class="tabla-env"><table><thead><tr><th>Indicador</th><th>En inicio (1–4)</th><th>Adecuado (5–6)</th><th>Notable (7–8)</th><th>Excelente (9–10)</th></tr></thead><tbody><tr><th>Funcionamiento</th><td>No se ejecuta o no hace lo previsto.</td><td>Funciona parcialmente.</td><td>Funciona correctamente en los casos previstos.</td><td>Funciona y responde bien también ante entradas inesperadas.</td></tr><tr><th>Uso de los elementos de programación</th><td>Faltan elementos o se usan mal.</td><td>Los usa, pero de forma poco adecuada.</td><td>Usa variables, condicional y bucle correctamente.</td><td>Los usa correctamente y con nombres y estructura que facilitan la lectura.</td></tr><tr><th>Integración del módulo de IA</th><td>No lo integra o no aporta nada.</td><td>Lo integra de forma forzada.</td><td>El módulo aporta una funcionalidad real a la solución.</td><td>Aporta funcionalidad y el alumnado explica sus limitaciones y su sesgo.</td></tr><tr><th>Depuración</th><td>No hay registro de errores.</td><td>Registra errores sin explicar el proceso.</td><td>Registra los errores y cómo los resolvió.</td><td>Registra, explica el proceso y extrae una conclusión para la próxima vez.</td></tr></tbody></table></div></details>
+<label class="marcar"><input type="checkbox" data-tarea="e2"> Marcar como entregado</label>
+</article>
+<article class="ejercicio" id="e3">
+<h3>Automatización de un sistema con sensores <a class="chip" href="3eso-curriculo.html#c5-3" title="Automatizar procesos, máquinas y objetos de manera autónoma, con conexión a internet, mediante el análisis, construcción y programación de robots y sistemas de control.">Criterio 5.3</a></h3>
+<p class="criterio-txt"><strong>Se evalúa:</strong> Automatizar procesos, máquinas y objetos de manera autónoma, con conexión a internet, mediante el análisis, construcción y programación de robots y sistemas de control.</p>
+<p>Construye y programa un sistema automático de lazo cerrado, con placa
+controladora o con simulador. Debe incorporar al menos un sensor y un actuador, y corregirse a sí mismo
+en función de lo que mida.</p>
+<p>Entrega el montaje, el programa comentado y una tabla de pruebas con al menos cinco situaciones
+distintas y el comportamiento observado en cada una.</p>
+<p class="entrega"><strong>Entrega:</strong> Montaje o simulación + programa + tabla de pruebas, por equipos.</p>
+<details class="rub"><summary>Ver la rúbrica con la que se corrige</summary><div class="tabla-env"><table><thead><tr><th>Indicador</th><th>En inicio (1–4)</th><th>Adecuado (5–6)</th><th>Notable (7–8)</th><th>Excelente (9–10)</th></tr></thead><tbody><tr><th>Montaje del sistema</th><td>El montaje no funciona.</td><td>Funciona con fallos frecuentes.</td><td>Montaje correcto y estable.</td><td>Montaje correcto, ordenado y con el cableado identificado.</td></tr><tr><th>Programación del control</th><td>El programa no controla el sistema.</td><td>Controla solo en condiciones ideales.</td><td>Control correcto con realimentación real.</td><td>Control correcto y con respuesta prevista ante valores extremos.</td></tr><tr><th>Comprensión del lazo cerrado</th><td>No distingue lazo abierto de cerrado.</td><td>Los distingue en teoría pero no en su montaje.</td><td>Identifica correctamente la realimentación de su sistema.</td><td>La identifica y justifica por qué el lazo abierto no serviría aquí.</td></tr><tr><th>Pruebas</th><td>No documenta pruebas.</td><td>Pocas pruebas o poco significativas.</td><td>Tabla de pruebas completa y significativa.</td><td>Tabla completa, con casos límite y conclusiones sobre el sistema.</td></tr></tbody></table></div></details>
+<label class="marcar"><input type="checkbox" data-tarea="e3"> Marcar como entregado</label>
+</article>
+<section class="resumen"><h2>Lo esencial de esta unidad</h2><ul><li>Qué es un algoritmo y por qué la precisión importa más que la elegancia.</li><li>Diagramas de flujo: los cuatro símbolos básicos y el pseudocódigo.</li><li>Variables, condicionales y bucles como base de cualquier programa.</li><li>La IA como módulo dentro de un programa, y el sesgo que hereda de sus datos.</li><li>Sensores, actuadores y la diferencia entre lazo abierto y lazo cerrado.</li><li>La depuración como método: reproducir, reducir, comprobar y cambiar una cosa cada vez.</li></ul></section>
+<nav class="nav-ud"><a href="3eso-ud02.html"><small>← Unidad anterior</small>UD2. Electricidad y fabricación</a><a href="3eso-ud04.html" style="text-align:right"><small>Unidad siguiente →</small>UD4. Redes, contenidos y seguridad</a></nav>
+</main>
+<footer>
+  <div class="pie-int">
+    <span>Tecnología y Digitalización · 3.º ESO · Coria del Río (Sevilla)</span>
+    <span><a href="index.html">Todos los cursos</a> · <a href="glosario.html">Glosario</a></span>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
